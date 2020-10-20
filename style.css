@@ -4,7 +4,7 @@
 /* Set Fonts and Resets */
 body,
 html {
-  background: gray;
+  background: slategrey;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -46,6 +46,7 @@ kbd {
   -webkit-box-pack: center;
           justify-content: center;
   position: relative;
+  color: white;
 }
 
 /* Visual Keys / Squares */
@@ -58,7 +59,7 @@ kbd {
   /* Styling of keys */
   width: 10rem;
   text-align: center;
-  outline: 1px solid black;
+  outline: 1px solid white;
   
   /* Change mouse pointer */
   cursor:pointer;
